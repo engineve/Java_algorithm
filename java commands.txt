@@ -1,0 +1,1 @@
+javac -d <directory> // make class file on the directory
