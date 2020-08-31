@@ -9,7 +9,7 @@ public class ATM {
         money=amount;
     }
     public void display(){
-        System.out.printf("Money deposit in %s : %.1f",bank, money); // Money deposit : 5000.0
+        System.out.printf("Money deposit in %s : %.1f",bank, money); 
     }
     public static void main(String[] args){
     
