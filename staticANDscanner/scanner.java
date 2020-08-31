@@ -17,3 +17,7 @@ public class scanner {
     }
 
 }
+
+// System.in.read(byte[])
+
+// BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
