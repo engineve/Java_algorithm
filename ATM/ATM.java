@@ -4,11 +4,11 @@ public class ATM {
 
     public void set_money(double amount){
         money=amount;
-        
+    }
+    public void display(){
+        System.out.println("Money deposit : "+money); // Money deposit : 5000.0
     }
     public static void main(String[] args){
-        ATM user=new ATM();
-        user.set_money(5000);
-        System.out.println("Money deposit : "+money); // Money deposit : 5000.0
+    
     }
 }
