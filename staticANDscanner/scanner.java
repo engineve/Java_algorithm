@@ -9,7 +9,7 @@ public class scanner {
     }
 
     public static void main(String[] args) {   
-        scanner.display(); // 5
+        scanner.display(); // 15
         Scanner sc=new Scanner(System.in);
         String str=sc.next();
         int converted=Integer.parseInt(str);
