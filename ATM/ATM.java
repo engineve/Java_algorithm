@@ -1,6 +1,6 @@
 public class ATM {
     public String bank;
-    private static double money; // if other class can't access so use set_money method to change this data
+    private static double money; // use set_money method to change this data
     
     public void set_bank(String name){
         bank=name;
