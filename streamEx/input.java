@@ -22,7 +22,7 @@ public class input{
         FileInputStream item=new FileInputStream("data.txt");
         int i;
         while((i=item.read())!=-1){
-            System.out.print(i);
+            System.out.println(i); // 1 2 3
         }
         item.close();
     }
